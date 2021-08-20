@@ -1,0 +1,29 @@
+{
+  "name": "giornalino",
+  "version": "1.0.0",
+  "description": "Sito che permette di visionare una lista di articoli o link particolarmente utili",
+  "main": "index.js",
+  "scripts": {
+    "clear":"sh clear.sh",
+    "front-build": "sh build-front.sh",
+    "front-dev": "cd giornalino-front && npm run serve",
+    "back-start": "npm run front-build && cd giornalino-back && npm run start",
+    "back-dev": "cd giornalino-back && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholaslopiccolo/giornalino.git"
+  },
+  "keywords": [
+    "nicholaslopiccolo",
+    "nodejs",
+    "vuejs",
+    "links"
+  ],
+  "author": "nicholaslopiccolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholaslopiccolo/giornalino/issues"
+  },
+  "homepage": "https://github.com/nicholaslopiccolo/giornalino#readme"
+}
