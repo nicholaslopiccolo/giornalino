@@ -43,6 +43,7 @@
 
       axios('/links')
       .then(res=>{
+        console.log(res);
         let links = res.data;
         links.map(link=>{this.links.push(link)})
       })

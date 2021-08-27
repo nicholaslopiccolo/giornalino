@@ -1,4 +1,4 @@
-# 4link4ever
+# Giornalino-front
 
 ## Project setup
 ```
