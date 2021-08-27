@@ -43,7 +43,6 @@
 
       axios('/links')
       .then(res=>{
-        console.log(res);
         let links = res.data;
         links.map(link=>{this.links.push(link)})
       })
@@ -54,17 +53,10 @@
     data: () => ({
       appIcon: 'mdi-newspaper-variant-outline',
       appName: 'Giornalino',
-      links: [{
-          url: 'https://www.someurl.it/idk/what/to/say',
-          description: 'Long Long long long description long long Long Long....',
-          tags: ['Cat1', 'Cat2', 'Cat3', 'Cat4']
-        }
-      ]
+      links: []
     }),
     methods:{
       addLink(link){
-        console.log('event Received')
-        console.log(link)
         this.links.push(link);
       }
     }
