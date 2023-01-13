@@ -7,7 +7,7 @@
     "clear":"sh clear.sh",
     "front-build": "sh build-front.sh",
     "front-dev": "cd giornalino-front && npm run serve",
-    "back-start": "npm run front-build && cd giornalino-back && npm run start",
+    "back-start": "cd giornalino-back && npm run start",
     "back-dev": "cd giornalino-back && npm run dev"
   },
   "repository": {
