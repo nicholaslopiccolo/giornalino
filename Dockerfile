@@ -6,7 +6,7 @@ WORKDIR /giornalino-front
 
 RUN npm install
 
-RUN npm run front-build
+RUN npm run build
 
 WORKDIR /giornalino-back
 
