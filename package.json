@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clear":"sh clear.sh",
-    "front-build": "sh build-front.sh",
+    "front-build": "cd giornalino-front && npm run build",
     "front-dev": "cd giornalino-front && npm run serve",
     "back-start": "cd giornalino-back && npm run start",
     "back-dev": "cd giornalino-back && npm run dev"
